@@ -1,0 +1,32 @@
+/*Estilos del terrarium*/
+
+h1 {
+   color:#92df9e;
+   text-align: center;
+}
+#left-container /* ID se representa con el #*/
+{
+    background-color: #eee;
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 3px;
+    border-style:dashed;
+    border-color: #ba8ae7;
+    padding:10px;
+}
+#right-container /* ID se representa con el #*/
+{
+    background-color: #eee;
+    width: 15%;
+    height: 100%;
+    right: 15px;
+    top: 0px;
+    position: absolute;
+    border: 3px;
+    border-style:dashed;
+    border-color: #a9f8ee;
+    padding:10px;
+}
