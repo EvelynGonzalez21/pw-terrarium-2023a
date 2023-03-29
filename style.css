@@ -1,32 +1,42 @@
 /*Estilos del terrarium*/
-
 h1 {
    color:#92df9e;
    text-align: center;
 }
-#left-container /* ID se representa con el #*/
-{
+/*.Crear clase código*/
+.container{     
     background-color: #eee;
     width: 15%;
     height: 100%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border: 3px;
-    border-style:dashed;
-    border-color: #ba8ae7;
+    top: 10px;
+    position: absolute; /* posicion absoluta tiene como caracteristicas */
     padding:10px;
+    border: 3px;     /* solo son para vizualizar los movimientos*/
+    border-style:dashed;
+    border-color: #ba8ae7; 
 }
-#right-container /* ID se representa con el #*/
+/* ID se representa con el #*/
+#left-container 
 {
-    background-color: #eee;
-    width: 15%;
-    height: 100%;
+    left: 0px;
+}
+/* ID se representa con el #*/
+#right-container 
+{
     right: 15px;
-    top: 0px;
-    position: absolute;
-    border: 3px;
+}
+.plant-holder{ /*contenederores de las plantas*/
+    position: relative;  
+    height: 13%;
+    left: -10px;
+    border: 3px;     /* solo son para vizualizar los movimientos*/
     border-style:dashed;
-    border-color: #a9f8ee;
-    padding:10px;
+    border-color: #dee78a;
+}
+.plant{ /*plantas*/
+    position:absolute;
+    /*tamaño de la imagen*/
+    max-width: 100%;  /*150*/
+    max-height: 100%;
+    z-index: 2;
 }
