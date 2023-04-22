@@ -33,8 +33,8 @@ h1 {
 .plant{ /*plantas*/
     position:absolute;
     /*tamaño de la imagen*/
-    max-width: 100%;  /*150*/
-    max-height: 100%;
+    max-width: 200%;  /*150*/
+    max-height: 200%;
     z-index: 2;
 }
 
